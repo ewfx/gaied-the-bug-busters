@@ -1,0 +1,43 @@
+# Core dependencies
+fastapi[standard]>=0.115.0
+uvicorn[standard]>=0.34.0
+pydantic>=2.10.0
+python-multipart>=0.0.6
+
+# Document processing
+pdf2image>=1.17.0
+pdfplumber>=0.11.0
+pdfminer.six>=20231228
+python-docx>=1.1.0
+pytesseract>=0.3.10
+reportlab>=4.0.0
+
+# Machine Learning and NLP
+torch>=2.6.0
+transformers>=4.50.0
+sentence-transformers>=3.4.0
+scikit-learn>=1.6.0
+huggingface-hub>=0.29.0
+langchain-core>=0.3.0
+langchain-huggingface>=0.1.0
+langsmith>=0.3.0
+
+# HTTP and API
+requests>=2.32.0
+requests-toolbelt>=1.0.0
+httpx>=0.28.0
+
+# Testing and code quality
+pytest>=8.3.0
+pytest-cov>=6.0.0
+black>=25.1.0
+flake8>=7.1.0
+mypy>=1.15.0
+coverage>=7.7.0
+
+# Utilities
+scipy>=1.15.0
+jsonpatch>=1.33.0
+jinja2>=3.1.0
+certifi>=2025.1.0
+click>=8.1.0
