@@ -14,7 +14,7 @@
 ---
 
 ## 🎯 Introduction
-A brief overview of your project and its purpose. Mention which problem statement are your attempting to solve. Keep it concise and engaging.
+GenAI based Email Classification and OCR. The project scans emails and the attachments and classifies them to different categories.
 
 ## 🎥 Demo
 🔗 [Live Demo](#) (if applicable)  
@@ -24,13 +24,13 @@ A brief overview of your project and its purpose. Mention which problem statemen
 ![Screenshot 1](link-to-image)
 
 ## 💡 Inspiration
-What inspired you to create this project? Describe the problem you're solving.
+Banks receive so many mails on a daily basis. Sifting through each mail and reading attachments and categorizing them is a tedious and a repetitive task. What if we trained LLMs to do that task for us. And that pushed us to select this problem statement.
 
 ## ⚙️ What It Does
-Explain the key features and functionalities of your project.
+It reads a mail and the attachment and classifies it.
 
 ## 🛠️ How We Built It
-Briefly outline the technologies, frameworks, and tools used in development.
+There is no front end for this MVP. The technologies it used - fastapi for exposing http endpoints, pytesseract for ocr, pdfplumber for PDF related tasks, transformers from huggingface to inlude opensource models, langchain, scikit
 
 ## 🚧 Challenges We Faced
 Describe the major technical or non-technical challenges your team encountered.
@@ -63,7 +63,7 @@ Describe the major technical or non-technical challenges your team encountered.
 
 ## 👥 Team
 - **Apurba Kumar** - [apurba31](https://github.com/apurba31)
-- **Subramanian Uppu** - [GitHub](#) | [LinkedIn](#)
-- **Nikhil P**
-- **Sirisha P**
-- **VeeraMani**
+- **Subramanyam Uppu** - [GitHub](#) | [LinkedIn](#)
+- **Nikhil P** - [GitHub](#) | [LinkedIn](#)
+- **Sirisha P** - [GitHub](#) | [LinkedIn](#)
+- **VeeraMani** - [GitHub](#) | [LinkedIn](#)
